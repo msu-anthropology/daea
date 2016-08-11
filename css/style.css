@@ -43,6 +43,7 @@ body {
 .popover {
 	font-size: 12px;
 	color: #333;
+	width: 350px;
 }
 
 body > .container {
