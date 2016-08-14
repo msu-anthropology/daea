@@ -1399,8 +1399,6 @@ pre code {
 @media (min-width: 768px) {
   .container {
     width: 720px;
-  padding-right: 41.5px;
-  padding-left: 41.5px;
   }
 }
 @media (min-width: 992px) {
