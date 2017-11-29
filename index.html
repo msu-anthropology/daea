@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
     <title>Digital Atlas of Egyptian Archaeology</title>
 
@@ -65,7 +65,7 @@
       <!-- MAP -->
       <div id="map"></div>
      
-      <!-- FOOTER -->  
+      <!-- centralized footer -->  
       <div id="central-foot"></div>
 
     <!-- Bootstrap core JavaScript -->
@@ -150,7 +150,7 @@ $(window).on("resize", function () {
 }).addTo(map);
 
             //enter path for .csv here
-            omnivore.csv('sites/AA-sites-popup.csv')
+            omnivore.csv('sites-popup.csv')
              .on('ready', function(layer) {
        
         this.eachLayer(function(marker) {
